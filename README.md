@@ -29,6 +29,7 @@ Every module in this repository is verified using **Testbenches** to ensure func
 
 ## 📧 Contact & Connect
 - **Name:** Ahmad Samadpour Azar Sharbiani
+- **Linkedin : https://www.linkedin.com/in/ahamd-samadpour-12a6212a6/
 - **Email:** ahmadsamadpourazar@gmail.com
 - **Location:** Tabriz, Iran 
 # FPGA-UART-Transceiver-VHDL
