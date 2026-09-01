@@ -1,0 +1,18 @@
+open_system('SECTION10_2');
+open_system('gm_SECTION10_2');
+cs.HiliteType = 'user2';
+cs.ForegroundColor = 'black';
+cs.BackgroundColor = 'gray';
+set_param(0, 'HiliteAncestorsData', cs);
+hilite_system('gm_SECTION10_2/HDL_DUT/Discrete PID Controller', 'user2');
+annotate_port('gm_SECTION10_2/HDL_DUT/Discrete PID Controller', 1, 1, 'Block not characterized');
+hilite_system('SECTION10_2/HDL_DUT/Discrete PID Controller', 'user2');
+annotate_port('SECTION10_2/HDL_DUT/Discrete PID Controller', 1, 1, 'Block not characterized');
+cs.HiliteType = 'user2';
+cs.ForegroundColor = 'black';
+cs.BackgroundColor = 'gray';
+set_param(0, 'HiliteAncestorsData', cs);
+hilite_system('gm_SECTION10_2/HDL_DUT/Discrete PID Controller/Sum', 'user2');
+annotate_port('gm_SECTION10_2/HDL_DUT/Discrete PID Controller/Sum', 1, 1, 'Block not characterized');
+hilite_system('SECTION10_2/HDL_DUT/Discrete PID Controller/Sum/Sum_PID/Sum', 'user2');
+annotate_port('SECTION10_2/HDL_DUT/Discrete PID Controller/Sum/Sum_PID/Sum', 1, 1, 'Block not characterized');

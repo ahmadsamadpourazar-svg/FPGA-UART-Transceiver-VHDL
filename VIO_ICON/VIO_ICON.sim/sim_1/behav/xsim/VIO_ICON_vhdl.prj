@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../VIO_ICON.srcs/sources_1/ip/ila_0/sim/ila_0.vhd" \
+"../../../../VIO_ICON.srcs/sources_1/ip/vio_0/sim/vio_0.vhd" \
+"../../../../../ENCODER_COUNTER/ENCODER_COUNTER.srcs/sources_1/new/ENCODER_COUNTER.vhd" \
+"../../../../../RPM_CONVERTER/RPM_CONVERTER.srcs/sources_1/new/RPM_CONVERTER.vhd" \
+"../../../../VIO_ICON.srcs/sources_1/new/VIO_ICON.vhd" \
+
+# Do not sort compile order
+nosort

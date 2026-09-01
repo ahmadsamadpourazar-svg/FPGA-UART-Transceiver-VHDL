@@ -1,0 +1,1 @@
+-wto "94d4d207c13745a6b9cbfc2a2725b038" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "TB_UART_RECIEVE_behav" "xil_defaultlib.TB_UART_RECIEVE" -log "elaborate.log" 

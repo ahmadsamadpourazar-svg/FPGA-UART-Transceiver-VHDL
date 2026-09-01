@@ -1,0 +1,37 @@
+
+
+#include "xil_io.h"
+#include "xparameters.h"
+#include "sleep.h"
+
+#define SEVENSEG_BASEADDR XPAR_AXI_7SEG_CONTROLLER_0_S00_AXI_BASEADDR
+
+#define REG_DIGIT0_OFFSET 0x00
+#define REG_DIGIT1_OFFSET 0x04
+#define REG_DIGIT2_OFFSET 0x08
+#define REG_DIGIT3_OFFSET 0x0C
+#define REG_DOTS_OFFSET   0x10
+
+int main()
+{
+    while (1)
+    {
+        Xil_Out32(SEVENSEG_BASEADDR + REG_DIGIT0_OFFSET, 1);
+        Xil_Out32(SEVENSEG_BASEADDR + REG_DIGIT1_OFFSET, 2);
+        Xil_Out32(SEVENSEG_BASEADDR + REG_DIGIT2_OFFSET, 3);
+        Xil_Out32(SEVENSEG_BASEADDR + REG_DIGIT3_OFFSET, 4);
+        Xil_Out32(SEVENSEG_BASEADDR + REG_DOTS_OFFSET,   0b0101);
+
+        sleep(1);
+
+        Xil_Out32(SEVENSEG_BASEADDR + REG_DIGIT0_OFFSET, 5);
+        Xil_Out32(SEVENSEG_BASEADDR + REG_DIGIT1_OFFSET, 6);
+        Xil_Out32(SEVENSEG_BASEADDR + REG_DIGIT2_OFFSET, 7);
+        Xil_Out32(SEVENSEG_BASEADDR + REG_DIGIT3_OFFSET, 8);
+        Xil_Out32(SEVENSEG_BASEADDR + REG_DOTS_OFFSET,   0b1010);
+
+        sleep(1);
+    }
+
+    return 0;
+}

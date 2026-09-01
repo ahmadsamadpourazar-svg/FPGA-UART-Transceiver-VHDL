@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu May 14 14:12:11 2026
+# Process ID: 15324
+# Current directory: O:/your_desired_folder/Ali/zz/MOTOR_PWM_TOP/MOTOR_PWM_TOP.runs/synth_1
+# Command line: vivado.exe -log MOTOR_PWM_TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MOTOR_PWM_TOP.tcl
+# Log file: O:/your_desired_folder/Ali/zz/MOTOR_PWM_TOP/MOTOR_PWM_TOP.runs/synth_1/MOTOR_PWM_TOP.vds
+# Journal file: O:/your_desired_folder/Ali/zz/MOTOR_PWM_TOP/MOTOR_PWM_TOP.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source MOTOR_PWM_TOP.tcl -notrace

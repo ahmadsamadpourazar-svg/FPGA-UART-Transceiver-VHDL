@@ -1,0 +1,12 @@
+
+{ 
+    crc :  6125079908434309822  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto dfe018fd5e2e4322ae9752b3ced4a9cc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ENCODER_COUNTER_behav xil_defaultlib.ENCODER_COUNTER" , 
+    buildDate : "Dec  7 2018" , 
+    buildTime : "00:33:28" , 
+    linkCmd : "I:\\xilinx\\Vivado\\2018.3\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/ENCODER_COUNTER_behav/xsimk.exe\"   \"xsim.dir/ENCODER_COUNTER_behav/obj/xsim_0.win64.obj\" \"xsim.dir/ENCODER_COUNTER_behav/obj/xsim_1.win64.obj\" -L\"I:\\xilinx\\Vivado\\2018.3\\lib\\win64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

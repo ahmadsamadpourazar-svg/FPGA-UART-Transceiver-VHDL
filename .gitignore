@@ -1,0 +1,55 @@
+# --- Vivado / Xilinx FPGA ---
+.Xil/
+.cache/
+.hw/
+.ip_user_files/
+.runs/
+.sim/
+.srcs/sources_1/bd/*/ip/
+*.bit
+*.bin
+*.dcp
+*.dpl
+*.dsa
+*.log
+*.jou
+*.pb
+*.str
+*.wdb
+*.xml
+*.coe
+*.xpr.lock
+*.tmp
+
+# --- Matlab / Simulink ---
+slprj/
+codegen/
+*.asv
+*.mexw64
+*.mexa64
+*.slxc
+*.autosave
+
+# --- Python / C ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+
+# --- IDE Configs ---
+.vscode/
+.idea/
+.vs/
+.settings/
+.project
+.classpath
+
+# --- System & OS ---
+.DS_Store
+Thumbs.db
+Desktop.ini

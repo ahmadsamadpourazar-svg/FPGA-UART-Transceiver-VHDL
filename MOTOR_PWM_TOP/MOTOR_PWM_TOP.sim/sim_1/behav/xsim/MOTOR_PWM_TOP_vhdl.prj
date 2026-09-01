@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../PWM_GENERATOR/PWM_GENERATOR.srcs/sources_1/new/PWM_GENERATOR.vhd" \
+"../../../../../UART_RECEIVE/UART_RECEIVE.srcs/sources_1/new/UART_RECEIVE.vhd" \
+"../../../../MOTOR_PWM_TOP.srcs/sources_1/new/MOTOR_PWM_TOP.vhd" \
+
+# Do not sort compile order
+nosort

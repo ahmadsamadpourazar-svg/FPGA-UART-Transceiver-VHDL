@@ -1,0 +1,3 @@
+ --> Subsystem1_pkg
+MATLAB_TO_VHDL3_SIMULINK/Subsystem1/nfp_sub_comp --> nfp_sub_comp
+MATLAB_TO_VHDL3_SIMULINK/Subsystem1 --> Subsystem1

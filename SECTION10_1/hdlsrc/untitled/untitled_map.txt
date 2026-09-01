@@ -1,0 +1,3 @@
+untitled/HDL_DUT/Discrete PID Controller --> Discrete_PID_Controller
+untitled/HDL_DUT --> HDL_DUT
+untitled --> untitled

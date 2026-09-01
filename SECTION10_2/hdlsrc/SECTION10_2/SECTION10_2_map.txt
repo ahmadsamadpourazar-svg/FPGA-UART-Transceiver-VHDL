@@ -1,0 +1,3 @@
+SECTION10_2/HDL_DUT/Discrete PID Controller --> Discrete_PID_Controller
+SECTION10_2/HDL_DUT --> HDL_DUT
+SECTION10_2 --> SECTION10_2

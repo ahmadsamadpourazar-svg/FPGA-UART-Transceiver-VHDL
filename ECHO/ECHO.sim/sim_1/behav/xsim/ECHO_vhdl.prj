@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../UART_RECEIVE/UART_RECEIVE.srcs/sources_1/new/UART_RECEIVE.vhd" \
+"../../../../../UART_SEND/UART_SEND.srcs/sources_1/new/UART_SEND.vhd" \
+"../../../../ECHO.srcs/sources_1/new/ECHO.vhd" \
+
+# Do not sort compile order
+nosort

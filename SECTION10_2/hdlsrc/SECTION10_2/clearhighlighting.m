@@ -1,0 +1,13 @@
+SLStudio.Utils.RemoveHighlighting(get_param('SECTION10_2', 'handle'));
+SLStudio.Utils.RemoveHighlighting(get_param('gm_SECTION10_2', 'handle'));
+annotate_port('gm_SECTION10_2/HDL_DUT', 0, 1, '');
+annotate_port('gm_SECTION10_2/HDL_DUT/Discrete PID Controller', 1, 1, '');
+annotate_port('gm_SECTION10_2/HDL_DUT/Discrete PID Controller', 1, 1, '');
+annotate_port('SECTION10_2/HDL_DUT/Discrete PID Controller', 1, 1, '');
+annotate_port('gm_SECTION10_2/HDL_DUT/Discrete-Time Integrator_reg', 0, 1, '');
+annotate_port('gm_SECTION10_2/HDL_DUT/Discrete-Time Integrator_x_reg_wire', 0, 1, '');
+annotate_port('gm_SECTION10_2/HDL_DUT/Gain', 0, 1, '');
+annotate_port('gm_SECTION10_2/HDL_DUT/Subtract', 0, 1, '');
+annotate_port('gm_SECTION10_2/HDL_DUT/Sum', 0, 1, '');
+annotate_port('gm_SECTION10_2/HDL_DUT/Discrete PID Controller/Sum', 1, 1, '');
+annotate_port('SECTION10_2/HDL_DUT/Discrete PID Controller/Sum/Sum_PID/Sum', 1, 1, '');
